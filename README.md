@@ -35,19 +35,19 @@ Ensure that both the Maven and Gradle Spring Boot applications are running in Ec
 
 - Testing the Maven Project:
 
-Select the "Proyecto Maven" environment in Postman.
-Send a GET request to the following URLs (examples):
+1- Select the "Proyecto Maven" environment in Postman.
+2- Send a GET request to the following URLs (examples):
 {{Servidor}}:{{Port}}/HelloWorld?nombre=PostmanMaven
 {{Servidor}}:{{Port}}/HelloWorld2/PostmanMaven
-Verify that you receive the expected response: "Hola, PostmanMaven. Estás ejecutando un proyecto Maven" (or similar).
+3- Verify that you receive the expected response: "Hola, PostmanMaven. Estás ejecutando un proyecto Maven" (or similar).
 
 - Testing the Gradle Project:
 
-Select the "Proyecto Gradle" environment in Postman.
-Send a GET request to the following URLs (examples):
+1- Select the "Proyecto Gradle" environment in Postman.
+2- Send a GET request to the following URLs (examples):
 {{Servidor}}:{{Port}}/api/HelloWorld?nombre=PostmanGradle
 {{Servidor}}:{{Port}}/api/HelloWorld2/PostmanGradle
-Verify that you receive the expected response: "Hola, PostmanGradle. Estás ejecutando un proyecto Gradle" (or similar).
+3- Verify that you receive the expected response: "Hola, PostmanGradle. Estás ejecutando un proyecto Gradle" (or similar).
 Screenshots:
 
 ## Two screenshots are provided:
